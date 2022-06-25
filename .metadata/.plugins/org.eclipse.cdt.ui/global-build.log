@@ -1,0 +1,10 @@
+13:25:59 **** Rebuild of configuration Debug for project TP_[3] ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Controller.o "..\\Controller.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o utn.o "..\\utn.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o memoriaDinamica.o "..\\memoriaDinamica.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o parser.o "..\\parser.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Passenger.o "..\\Passenger.c" 
+gcc "-LC:\\Users\\thiag\\Desktop\\TP_[3]_Recuperatorio\\TP_[3]" -o TP_[3].exe Controller.o Passenger.o main.o memoriaDinamica.o parser.o utn.o -lLinkedList 
+Info: Nothing to build for TP_[3]
